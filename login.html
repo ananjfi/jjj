@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(97, 97, 97) ;
+            background-image:linear-gradient( rgb(97, 97, 97), #d8dede);
+        }
+        .form{
+            border:2px solid rgb(148, 148, 148);
+            width:50%;
+            background: rgb(241, 241, 241);
+            border-radius: 10px;
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .login{
+            display: flex;
+            margin: 20px;
+            padding: 20px;
+            
+        }
+        .divs{
+
+        }
+        label{
+            
+        }
+        input{
+            margin: 20px;
+            padding: 10px;
+            display: block;            
+            box-sizing: border-box;
+            width: 100%;
+        }
+        input:hover{
+            background: rgb(241, 240, 240);
+        }
+        input[type=submit]{
+            background: #04b822;
+            cursor: pointer;
+        }
+        input[type=reset]{
+            background: #04b822;
+            cursor: pointer;
+        }
+        .back{
+            display: flex;
+            direction: ltr;
+            border:1px solid #c8c9c9;
+            background-color: #d8dede;
+            border-radius: 5px;
+            width:5%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="back">
+        <a href="index.html"><i class="f fa-"></i>Back</a>
+    </header>
+    <header class="form">
+        <div class="login">
+            <section class="divs">
+                <form>
+                    <div>
+                        <label>username:</label>
+                        <input type="text" placeholder="username" name="username" required />
+                    </div>
+                    <div>
+                        <label>Password:</label>
+                        <input type="password" placeholder="password" name="password" required />
+                    </div>
+                    <div>
+                        <input type="reset" />
+                        <input type="submit" />
+                    </div>
+                    <a href="forgot.html" class="forgot">forgot your password?</a>
+                </form>
+                
+            </section>
+        </div>
+    </header>
+</body>
+</html>

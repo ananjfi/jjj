@@ -1,0 +1,115 @@
+body{
+    background-color: #f1f0f0; 
+}
+.nav-list{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    height:50%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.nav-menu{
+    position: relative;
+    text-align: center;
+    top:25%;
+    width:100%;
+    margin-top: 30px;    
+}
+.nav-menu a:hover{
+    background: #313131;
+}
+.si:hover{
+    background: #d6d6d6;
+    border-radius: 5px;
+}
+.nav-list a{
+    color:#e0e0e0;
+    padding:8px;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-list:hover , .nav-list:focus{
+    color:#313131;
+}
+.nav-list .menu{
+    position: absolute;
+    top:20px;
+    right:45px;
+    font-size: 30px;
+}
+@media screen and (max-height: 100px){
+    .nav-list a{font-size: 20px}
+    .nav-list .menu{
+        font-size: 40px;
+        top:15px;
+        right:35px;
+    }
+}
+.nav-left{
+    direction: rtl;    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+.nav-left .register{
+    border:1px solid rgb(104, 16, 139);
+    padding:5px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-left .register i{
+    margin:7px;
+    color:#212122;
+}
+.nav-left .register a{
+    color:#212122;
+    margin:0px 10px;
+    font-size: .9em;
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width:auto;
+    text-align:center;
+}
+.part img{
+    max-width:100%;
+    height:auto;
+}
+.part{
+    background: rgb(236, 236, 236);
+    border:1px solid rgb(160, 160, 160);
+    display: grid;
+    text-align: center;
+    box-sizing:border-box;
+    
+}
+
+.foot ul {
+    list-style:none;
+    
+    
+}	
+.foot {   
+    padding: 15px;
+    background: #a8a7a7;    
+    font-size: 20px;
+    grid-column: 1/-1;
+}
+

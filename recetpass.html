@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background: #cbcccc;
+ 
+        }
+        .forgot{
+            border:2px solid rgb(148, 148, 148);
+            width:50%;
+            background: rgb(241, 241, 241);
+            border-radius: 10px;
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .login{
+            display: flex;
+            margin: 20px;
+            padding: 20px;
+        }
+        input{
+            width:100%;
+            margin:20px; 
+            padding: 10px;  
+            display: block;  
+            box-sizing: border-box;       
+        }
+        input:hover{
+            background:rgb(241, 240, 240);
+            cursor: pointer;
+
+        }
+        input[type=submit]{
+            background: #04b822;
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body>
+    <header class="forgot">
+        <div class="login">
+            <section>
+                <div>
+                    <label>New Password: </label>
+                    <input type="password" name="password" placeholder="Password" />
+                </div>
+                <div>
+                    <label>Re-enter Password:</label>
+                    <input type="password" name="password" placeholder="Password" />
+                </div>
+                <div>
+                    <input type="submit" />
+                </div>
+            </section>
+        </div>
+    </header>
+</body>
+</html>
